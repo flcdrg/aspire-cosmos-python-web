@@ -1,9 +1,12 @@
 var builder = DistributedApplication.CreateBuilder(args);
 
-var cosmos = builder.AddAzureCosmosDB("cosmos-db")
-                    .RunAsEmulator(emulator =>
-                    {
-                        emulator.WithDataVolume();
-                    });
+#pragma warning disable ASPIRECOSMOSDB001
+
+var cosmos = builder.AddAzureCosmosDB("cosmos-db").RunAsPreviewEmulator(
+                     emulator =>
+                     {
+                         emulator.WithDataExplorer();
+                         emulator.WithDataVolume();
+                     });
 
 builder.Build().Run();
