@@ -7,6 +7,8 @@ Demo .NET Aspire project with Cosmos DB, Python backend and static web front end
 ```pwsh
 dotnet new install Aspire.ProjectTemplates
 
+dotnet new aspire-starter
+
 dotnet add package Aspire.Hosting.Azure.CosmosDB
 ```
 
@@ -16,3 +18,10 @@ dotnet add package Aspire.Hosting.Azure.CosmosDB
 var cosmos = builder.AddAzureCosmosDB("cosmos-db")
                     .RunAsEmulator();
 ```
+
+Add Vite / React app with pnpm
+
+pnpm create vite
+
+- React
+- TypeScript
