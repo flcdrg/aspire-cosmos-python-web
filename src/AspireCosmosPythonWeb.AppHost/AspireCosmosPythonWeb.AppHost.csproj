@@ -7,12 +7,16 @@
     <TargetFramework>net9.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <UserSecretsId>bbdf5c7a-686c-43a3-8311-617f287bf55b</UserSecretsId>
+    <UserSecretsId>74ead231-cd4e-4c4d-8f06-96d88e26814c</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\AspireCosmosPythonWeb.ApiService\AspireCosmosPythonWeb.ApiService.csproj" />
+    <ProjectReference Include="..\AspireCosmosPythonWeb.Web\AspireCosmosPythonWeb.Web.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Aspire.Hosting.AppHost" Version="9.4.0" />
-    <PackageReference Include="Aspire.Hosting.Azure.CosmosDB" Version="9.4.0" />
   </ItemGroup>
 
 </Project>

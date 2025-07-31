@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/AspireCosmosPythonWeb.ApiService/AspireCosmosPythonWeb.ApiService.csproj" />
+    <Project Path="src/AspireCosmosPythonWeb.AppHost/AspireCosmosPythonWeb.AppHost.csproj" />
+    <Project Path="src/AspireCosmosPythonWeb.ServiceDefaults/AspireCosmosPythonWeb.ServiceDefaults.csproj" />
+    <Project Path="src/AspireCosmosPythonWeb.Web/AspireCosmosPythonWeb.Web.csproj" />
+  </Folder>
+</Solution>
