@@ -25,3 +25,11 @@ pnpm create vite
 
 - React
 - TypeScript
+
+
+Python
+
+Install `uv` <https://community.chocolatey.org/packages/uv>
+
+- uv init
+- 
