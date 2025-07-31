@@ -8,11 +8,13 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <UserSecretsId>74ead231-cd4e-4c4d-8f06-96d88e26814c</UserSecretsId>
+    <NoWarn>$(NoWarn);ASPIRE001</NoWarn>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Aspire.Hosting.AppHost" Version="9.4.0" />
     <PackageReference Include="Aspire.Hosting.Azure.CosmosDB" Version="9.4.0" />
+    <PackageReference Include="Aspire.Hosting.Python" Version="9.4.0" />
   </ItemGroup>
 
 </Project>

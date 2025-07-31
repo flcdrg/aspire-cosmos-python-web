@@ -1,0 +1,34 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Run Aspire App",
+			"type": "shell",
+			"command": "dotnet",
+			"args": [
+				"run",
+				"--project",
+				"src/AspireCosmosPythonWeb.AppHost"
+			],
+			"group": "build",
+			"isBackground": true,
+			"problemMatcher": []
+		},
+		{
+			"label": "Run Python App with uv",
+			"type": "shell",
+			"command": "uv",
+			"args": [
+				"run",
+				"python",
+				"main.py"
+			],
+			"options": {
+				"cwd": "${workspaceFolder}/src/PythonApp"
+			},
+			"group": "build",
+			"isBackground": true,
+			"problemMatcher": []
+		}
+	]
+}
